@@ -5,25 +5,12 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
     <style>
-      /* 
-    selector {
-      property: value
-    }
-    */
       .my-test-class {
         color: rgb(6, 129, 252);
         font-size: 2em;
         background-color: blueviolet;
       }
 
-      /* 
-        tag - h1, div, ul, ol
-        class - .my-test-class
-        id - #ID_NAME 
-        attribute [data-test-id^="hello"]
-        .parent .child {}
-        .parent:hover {}
-      */
       .root {
         border: 1px solid brown;
       }
@@ -62,7 +49,7 @@
         text-align: center;
         border: 1px solid grey;
         border-radius: 5px;
-        padding: 10px
+        padding: 10px;
       }
 
       .result::after {
@@ -87,23 +74,22 @@
 
       .radio[value='red']:checked + label {
         color: rgb(243, 99, 99);
-        border-color: rgb(243, 99, 99) 
+        border-color: rgb(243, 99, 99);
       }
 
       .radio[value='green']:checked + label {
         color: rgb(129, 247, 129);
-        border-color: rgb(129, 247, 129) 
+        border-color: rgb(129, 247, 129);
       }
 
       /* seletcrA ~ selectorB */
       .radio[value='red']:checked ~ .result {
         background: rgb(243, 99, 99);
-
       }
 
       .radio[value='red']:checked ~ .result::after {
         content: 'You color is red';
-        color: rgb(239, 0, 0)
+        color: rgb(239, 0, 0);
       }
 
       .radio[value='green']:checked ~ .result {
@@ -112,7 +98,7 @@
 
       .radio[value='green']:checked ~ .result::after {
         content: 'You color is green';
-        color: rgb(27, 239, 7)
+        color: rgb(27, 239, 7);
       }
 
       .form-container {
@@ -121,13 +107,11 @@
         background-color: rgb(212, 120, 0);
         background-image: url('./micro-image.jpg');
         background-size: cover;
-        background-position: right 40%;
         background-repeat: no-repeat;
       }
     </style>
   </head>
   <body>
-    
     <div class="form-container">
       <form action="">
         <input class="radio" id="redEl" name="color" type="radio" value="red" />
@@ -140,13 +124,9 @@
           value="green"
         />
         <label class="label" for="greenEl">Green</label>
-        <span class="result">
-        </span>
+        <span class="result"> </span>
         <button>Submit</button>
       </form>
     </div>
-   
-
-   
   </body>
 </html>
