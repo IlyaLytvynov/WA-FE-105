@@ -1,0 +1,10 @@
+:root {
+  --page-header-height: 126px;
+  --page-content-max-width: 1300px;
+  --font-color: #000000;
+  --font-size-regular: 15px;
+  --font-size-large: 24px;
+  --accent-color-1: #0050FF;
+  --logo-color: var(--accent-color-1);
+  --page-header-background-color: #ffffff;
+}

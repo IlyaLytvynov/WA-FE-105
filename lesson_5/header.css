@@ -1,0 +1,61 @@
+.page-container {
+  width: 100%;
+  max-width: var(--page-content-max-width);
+  margin: 0 auto;
+  padding: 0 8px;
+}
+.page-header {
+  width: 100%;;
+  height: var(--page-header-height);
+  background-color: var(--page-header-background-color); 
+}
+
+.page-header__container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 100%;
+}
+
+.logo {
+  color: var(--font-color);
+  display: flex;
+  justify-content: flex-start;
+  font-size: var(--font-size-large);
+  font-weight: bold;
+  align-items: center;
+}
+
+.logo__squire {
+  --size: 17px;
+  width: var(--size);
+  height: var(--size);
+  margin-right: 10px;
+  background-color: var(--logo-color);
+}
+
+.logo__subtitle {
+  font-weight: 500;
+  text-transform: uppercase;
+  font-size: var(--font-size-regular);
+}
+
+
+.page-nav {
+}
+
+.page-nav {
+  display: flex;
+  justify-content: flex-end;
+
+}
+
+.page-nav__item {
+  margin-left: 10px;
+  text-transform: uppercase;
+  color: var(--font-color);
+}
+
+.page-nav__item:hover {
+  color: var(--accent-color-1)
+}

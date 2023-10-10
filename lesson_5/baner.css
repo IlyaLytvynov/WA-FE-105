@@ -1,0 +1,29 @@
+.baner {
+  display: flex;
+  min-height: calc(100vh - var(--page-header-height));
+}
+
+.baner__col {
+  width: 50%;
+}
+
+.baner__col:first-child {
+  background-color: #E6DACE;
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+}
+
+.hero-card {
+  width: 392px;
+  height: 525px;
+  display: flex;
+  padding: 24px;
+  flex-direction: column;
+  align-items: center;
+  background-color: #F4ECE6;
+  box-shadow: -5px 6px 5px rgb(0 0 0 / 11%);
+  /* position: relative;
+  left: 45px; */
+  transform: translateX(45px)
+}
