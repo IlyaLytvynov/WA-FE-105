@@ -1,0 +1,13 @@
+@font-face {
+  font-family: 'MyCoolFontAlumni';
+  src: url('./assets/fonts/Alumni_Sans_Collegiate_One/AlumniSansCollegiateOne-Regular.ttf') format("truetype");
+  font-weight: 500;
+  font-style: normal;
+}
+/* 
+@font-face {
+  font-family: 'MyCoolFontAlumni';
+  src: url('./assets/fonts/Roboto/Roboto-Italic.ttf') format("truetype");
+  font-weight: 500;
+  font-style: italic;
+} */
