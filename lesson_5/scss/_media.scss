@@ -1,0 +1,78 @@
+$xxl-screen: 1800px;
+$xl-screen: 1500px;
+$lg-screen: 1024px;
+$md-screen: 991px;
+$sm-screen: 767px;
+$xs-screen: 575px;
+
+@mixin xs-screen-up {
+  @media (min-width: ($xs-screen + 1px)) {
+    @content;
+  }
+}
+
+@mixin sm-screen-up {
+  @media (min-width: ($sm-screen + 1px)) {
+    @content;
+  }
+}
+
+@mixin md-screen-up {
+  @media (min-width: ($md-screen + 1px)) {
+    @content;
+  }
+}
+
+@mixin lg-screen-up {
+  @media (min-width: ($lg-screen + 1px)) {
+    @content;
+  }
+}
+
+@mixin xl-screen-up {
+  @media (min-width: $xl-screen) {
+    @content;
+  }
+}
+
+@mixin xxl-screen-up {
+  @media (min-width: $xxl-screen) {
+    @content;
+  }
+}
+
+@mixin lg-screen-down {
+  @media (max-width: $lg-screen) {
+    @content;
+  }
+}
+
+@mixin md-screen-down {
+  @media (max-width: $md-screen) {
+    @content;
+  }
+}
+
+@mixin sm-screen-down {
+  @media (max-width: $sm-screen) {
+    @content;
+  }
+}
+
+@mixin xs-screen-down {
+  @media (max-width: $xs-screen) {
+    @content;
+  }
+}
+
+@mixin sm-screen-down-landscape {
+  @media (max-width: $xs-screen) and (max-width: $sm-screen) and (orientation: landscape) {
+    @content;
+  }
+}
+
+@mixin exclude-touch-devices {
+  @media (hover: hover) and (pointer: fine) {
+    @content;
+  }
+}

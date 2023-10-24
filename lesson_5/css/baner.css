@@ -1,0 +1,36 @@
+.baner {
+  min-height: 80vh;
+  background-image: url(../assets/welcome_image_2.webp);
+  background-position: center 60%;
+  background-size: cover;
+  position: relative;
+}
+.baner__title {
+  padding-top: 30px;
+  font-size: 8vw;
+  text-align: center;
+  width: 100%;
+}
+.baner__title_italic {
+  font-size: 9vw;
+  font-style: italic;
+  font-family: "Cormorant-garamond";
+}
+.baner__link {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: aqua;
+  width: 150px;
+  height: 60px;
+  text-align: center;
+  text-decoration: none;
+  background-color: #fff;
+  position: absolute;
+  bottom: 50px;
+  left: 50%;
+  transform: translateX(-50%);
+  color: #000;
+}
+
+/*# sourceMappingURL=baner.css.map */
