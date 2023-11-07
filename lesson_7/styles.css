@@ -1,0 +1,30 @@
+.traffic-light {
+  width: 100px;
+  border: 1px solid rgb(37, 37, 37);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.traffic-light__item {
+  --size: 50px;
+  width: var(--size);
+  height: var(--size);
+  border: 1px solid black;
+  border-radius: 50%;
+  margin: 15px;
+  transition: background-color 0.7s;
+}
+
+.traffic-light__item_red.active {
+  background-color: red;
+} 
+
+.traffic-light__item_yellow.active {
+  background-color: yellow;
+}
+
+.traffic-light__item_green.active {
+  background-color: green;
+}
