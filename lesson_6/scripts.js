@@ -9,7 +9,7 @@ function popup() {
     modalContainer.classList.add('modal__visible');
     toggleButton.textContent = 'Opened!!!';
     intervalId = setInterval(() => {
-      console.log('asdfasdfasd')
+      console.log('asdfasdfasd');
     }, 3000);
   }
 
